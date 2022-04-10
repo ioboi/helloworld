@@ -1,0 +1,8 @@
+name: "helloworld"
+description: "Sample action"
+outputs:
+  greeting:
+    description: "Friendly greeting"
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
